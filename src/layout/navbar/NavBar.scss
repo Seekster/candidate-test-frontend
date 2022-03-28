@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: right;
+  padding-top: 41px;
+  margin-right: 186px;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      display: inline-block;
+      font-size: 16px;
+      margin-right: 24px;
+      a {
+        display: inline-block;
+        padding: 15px;
+        font: var(--unnamed-font-style-normal) normal
+          var(--unnamed-font-weight-medium) var(--unnamed-font-size-16) /
+          var(--unnamed-line-spacing-24) var(--unnamed-font-family-prompt);
+        letter-spacing: var(--unnamed-character-spacing-0);
+        color: var(--unnamed-color-17204d);
+        text-align: left;
+        letter-spacing: 0px;
+        color: #17204d;
+        opacity: 1;
+        text-decoration: none;
+        font-style: normal;
+        font-weight: bold;
+      }
+    }
+  }
+}
